@@ -1,2 +1,7 @@
-# Quote-Of-The-Wednesday
-This Python program sends a motivational email every Wednesday by randomly selecting a quote from a quotes.txt file. The program is organized into reusable functions for loading quotes, sending emails, and handling errors, making it reliable and easy to maintain.
+# Motivational Quote Emailer
+This Python script sends a motivational quote via email every Wednesday (or any specified day). The script reads quotes from a quotes.txt textfile, selects one randomly, and sends it using the SMTP protocol. 
+
+## Features
+- **Random Quote Selection**: Selects a random quote from a text file (`quotes.txt`).
+- **Automated Email Sending**: Automatically sends the selected quote via email if the script is executed on the specified day of the week.
+- **Day-Specific Execution**: Configured to send emails on a particular day (e.g., Wednesday).
